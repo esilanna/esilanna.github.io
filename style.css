@@ -1,72 +1,98 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-
 body {
-    background-color: #FEEAF2;
-    font-family: Playfair Display;
-    color: #FF5555;
-    font-size: 20px;
-    
-}
-
-h1 {
-    font-size: 48px;
-    margin-left: 16px;
+    font-family: Sporting Grotesque;
+    margin: 16px;
+    font-size: 32px;
+    color: #003844;
+    background-image: repeating-linear-gradient(45deg, #fff090, rgb(252, 199, 244));
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: flex-start;
+}
+
+h1 {
+    font-size: 128px;
+    margin-left: 72px;
+}
+
+nav {
+    margin: 16px 64px 0 0; 
 }
 
 nav a {
-    padding: 16px;
-}
-a {
-    color: #FF5555;
+    color: #003844;
+    padding: 32px;
     text-decoration: none;
 }
 
 a:hover {
-    color: #8A5EE8;
+    color: rgb(156, 255, 184);
+    text-shadow: 5px 5px 5px #d9bcf8;
 }
 
-.main-content {
+p {
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: row;
+    text-align: center;
+    width: 80%;
 }
 
-#page-text {
-    flex-direction: column;
+#main-text {
+    margin: 128px 0  0 164px;
 }
 
- p {
-    flex-direction: column;
-    color: #8D3333;
-    padding: 1em;
-    width: 450px;
-    height: 60px;
-    background-color: white;
-    box-shadow: 15px 15px #E6FD8C;
-    border-radius: 15px;
+#bio-head a {
+    font-size: 40px;
+    text-decoration:none;
+    color: #003844;
 }
 
-img {
+#bio-head a:hover {
+    color:rgb(156, 255, 184);
+    text-shadow: 5px 5px 5px #d9bcf8;
+}
+
+#bio-head nav a {
+    font-size: 32px;
+}
+
+#bio-label {
+    display: flex;
     justify-content: center;
-    width: 400px;
-    height: 550px;
-    margin: 0 0 18px 1em;
-    box-shadow: 15px 15px #E6FD8C;
-    border-radius: 15px;
-    
+    margin-top: 81px;
+    margin-bottom: 32px;
+    color: rgb(156, 255, 184);
+    font-size: 84px;
+    text-shadow: 5px 5px 5px #d9bcf8;
 }
 
-#about-text {
-    height: 250px;
-    margin-bottom: 2em;
+#bio-nav :first-child {
+    color:rgb(156, 255, 184);
 }
 
-#quote-text {
-    height: 150px;
+.about-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 6% 8% 0 8%;
+}
+
+#face-picture {
+    width: 30%;
+    height: 30%;
+    border-radius: 8%;
+    box-shadow: 20px 20px 5px rgb(156, 255, 184);
+}
+
+#bio-text {
+    line-height: 2;
+    font-size: 24px;
+    margin-left: 128px;
+    text-align: left;
 }

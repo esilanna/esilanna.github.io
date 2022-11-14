@@ -22,7 +22,7 @@ nav a {
 }
 
 nav a:hover {
-    letter-spacing: 0.15em;
+    letter-spacing: 0.1em;
     transition-timing-function: ease-in-out;
     color: #8D3333;
     transition: 1s;
@@ -64,6 +64,7 @@ h3 {
 }
 
 #bio-header h1 a:hover {
+    letter-spacing: 0.1em;
     transition-timing-function: ease-in-out;
     color: #8D3333;
     transition: 1s;

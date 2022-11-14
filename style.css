@@ -1,139 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Yeseva+One&display=swap');
+
 body {
-    font-family: Sporting Grotesque;
-    margin: 16px;
-    font-size: 32px;
-    color: #003844;
-    background-image: repeating-linear-gradient(45deg, #fff090, rgb(252, 199, 244));
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-
-h1 {
-    font-size: 128px;
-    margin-left: 72px;
-    margin-top: 224px;
+    background-color: #FFFEF9;
+    font-family: 'Yeseva One';
+    color: #DD4A48;
+    font-size: 24px;
+    letter-spacing: 0.095em;
+    margin: 44px auto;
 }
 
 nav {
-    margin: 16px 64px 0 0; 
-}
-
-nav a {
-    color: #003844;
-    padding: 32px;
-    text-decoration: none;
-}
-
-a:hover {
-    color: rgb(210 255 223);
-    text-shadow: 5px 5px 5px #d9bcf8;
-}
-
-p {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    width: 80%;
-}
-
-#main-text {
-    margin: 98px 0  0 164px;
-}
-
-.page-name-head a {
-    font-size: 40px;
-    text-decoration:none;
-    color: #003844;
-}
-
-.page-name-head a:hover {
-    color:rgb(210 255 223);
-    text-shadow: 5px 5px 5px #d9bcf8;
-}
-
-.page-name-head nav a {
-    font-size: 32px;
-}
-
-#bio-label {
-    display: flex;
-    justify-content: center;
-    margin-top: 81px;
-    margin-bottom: 32px;
-    color: rgb(210 255 223);
-    font-size: 84px;
-    text-shadow: 5px 5px 5px #d9bcf8;
-}
-
-#bio-nav :first-child {
-    color:rgb(210 255 223);
-}
-
-.about-info {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin: 6% 8% 0 8%;
-}
-
-#face-picture {
-    width: 30%;
-    height: 30%;
-    border-radius: 8%;
-    box-shadow: 20px 20px 5px rgb(210 255 223);
-}
-
-#bio-text {
-    line-height: 2;
-    font-size: 24px;
-    margin-left: 128px;
-    text-align: left;
-}
-
-#experience {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    font-size: 32px;
 }
 
-#tech-stack, #interests {
-    background-color:rgb(224, 251, 231);
-    box-shadow: 20px 20px 5px #d9bcf8;
-    border-radius: 8%;
-    padding: 24px;
+nav a {
+    text-decoration: none;
+    color: #DD4A48;
 }
 
-h4 {
-    text-align: center;
+nav a:hover {
+    letter-spacing: 0.15em;
+    transition-timing-function: ease-in-out;
+    color: #8D3333;
+    transition: 1s;
 }
 
-ul {
-    text-align: left;
-    font-size: 24px;;
-}
-
-footer {
+h1 {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    font-size: 16px;
-    margin-top: 170px;
+    margin: 254px 0 254px;
+    font-size: 128px;
 }
 
-footer a {
-    padding: 16px;
+h3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 284px;
+    letter-spacing: 0.065em;
+    text-align: center;
+}
+
+#bio-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#bio-header h1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    font-size: 64px;
+    margin: 0 0 0 100px;
+}
+#bio-header h1 a {
+    color:#DD4A48;
     text-decoration: none;
-    color:#003844;
 }
 
-#bio-footer {
-    margin-top: 221px;
+#bio-header h1 a:hover {
+    transition-timing-function: ease-in-out;
+    color: #8D3333;
+    transition: 1s;
+}
+
+#bio-nav {
+    font-size: 28px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin: 0 0 0 0;
+}
+
+#bio-nav a {
+    padding: 0 64px;
+}
+
+#bio-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 100px 80px;
+}
+
+img {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    height: 30%;
+    border-radius: 15px;
+    margin-left: 180px;
+}
+
+p {
+    color:#8D3333;
+    letter-spacing: 0.005em;
+    line-height: 1.55em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 80px;
 }

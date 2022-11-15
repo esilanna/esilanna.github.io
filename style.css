@@ -304,3 +304,7 @@ footer a {
     text-decoration: none;
     padding: 16px;
 }
+
+footer a:hover {
+    color:#DD4A48;
+}

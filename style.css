@@ -32,7 +32,7 @@ h1 {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 254px 0 254px;
+    margin: 200px 0 200px;
     font-size: 128px;
 }
 
@@ -83,7 +83,7 @@ h3 {
 }
 
 #bio-nav a, #experience-nav a, #portfolio-nav a {
-    padding: 0 64px;
+    padding: 0 42px;
 }
 
 #bio-content {
@@ -110,20 +110,19 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 264px;
+    margin: 0 150px;
 }
 
 h2 {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 81px 0;
 }
 #featured {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin: 48px auto;
+    margin: 28px auto;
 }
 
 #example-1, #example-2, #example-3 {
@@ -131,8 +130,8 @@ h2 {
     border-radius: 15px;
     flex-direction: row;
     justify-content: center;
-    width: 260px;
-    height: 400px;
+    width: 360px;
+    height: 500px;
 }
 
 .container-1 {
@@ -140,11 +139,41 @@ h2 {
     flex-direction: column;
     align-items: flex-start;
 }
-#text-1 {
-    font-size: 16px;
+#text-1, #text-2, #text-3 {
+    font-size: 24px;
     text-align: center;
-    justify-content: flex-start;
-    margin: 24px 0 0 0;
+    justify-content: center;
+    margin: -419px 0 0 54px;
     width: 260px;
-    height: 400px;
+    opacity: 0;
+}
+
+#featured .container-1:hover #example-1 {
+    opacity: 0.15;
+    transition: 1s ease-in-out;
+}
+
+#featured .container-1:hover #text-1 {
+    opacity: 1;
+    transition: 1s ease-in-out;
+}
+
+#featured .container-2:hover #example-2 {
+    opacity: 0.25;
+    transition: 1s ease-in-out;
+}
+
+#featured .container-2:hover #text-2 {
+    opacity: 1;
+    transition: 1s ease-in-out;
+}
+
+#featured .container-3:hover #example-3 {
+    opacity: 0.25;
+    transition: 1s ease-in-out;
+}
+
+#featured .container-3:hover #text-3 {
+    opacity: 1;
+    transition: 1s ease-in-out;
 }

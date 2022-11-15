@@ -45,32 +45,36 @@ h3 {
     text-align: center;
 }
 
-#bio-header {
+#current-selection {
+    color: #8D3333
+}
+
+#bio-header, #experience-header, #portfolio-header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-#bio-header h1 {
+#bio-header h1, #experience-header h1, #portfolio-header h1 {
     display: flex;
     flex-direction: row;
     justify-content: left;
     font-size: 64px;
-    margin: 0 0 0 100px;
+    margin: 0 0 0 77px;
 }
-#bio-header h1 a {
+#bio-header h1 a, #experience-header h1 a, #portfolio-header h1 a {
     color:#DD4A48;
     text-decoration: none;
 }
 
-#bio-header h1 a:hover {
+#bio-header h1 a:hover, #experience-header h1 a:hover, #portfolio-header h1 a:hover {
     letter-spacing: 0.1em;
     transition-timing-function: ease-in-out;
     color: #8D3333;
     transition: 1s;
 }
 
-#bio-nav {
+#bio-nav, #experience-nav, #portfolio-nav {
     font-size: 28px;
     display: flex;
     flex-direction: row;
@@ -78,7 +82,7 @@ h3 {
     margin: 0 0 0 0;
 }
 
-#bio-nav a {
+#bio-nav a, #experience-nav a, #portfolio-nav a {
     padding: 0 64px;
 }
 
@@ -89,7 +93,7 @@ h3 {
     margin: 100px 80px;
 }
 
-img {
+#portrait {
     display: flex;
     flex-direction: row;
     width: 30%;
@@ -106,5 +110,41 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 80px;
+    margin: 0 264px;
+}
+
+h2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 81px 0;
+}
+#featured {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 48px auto;
+}
+
+#example-1, #example-2, #example-3 {
+    display: flex;
+    border-radius: 15px;
+    flex-direction: row;
+    justify-content: center;
+    width: 260px;
+    height: 400px;
+}
+
+.container-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#text-1 {
+    font-size: 16px;
+    text-align: center;
+    justify-content: flex-start;
+    margin: 24px 0 0 0;
+    width: 260px;
+    height: 400px;
 }

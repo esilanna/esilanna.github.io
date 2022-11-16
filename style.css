@@ -372,12 +372,12 @@ footer a:hover {
         justify-content: space-evenly;
         align-items: center;
         text-align: center;
-        margin: 64px auto;
+        margin: 32px auto;
     }
 
     h3 {
-        font-size: 24px;
-        margin: 72px;
+        font-size: 18px;
+        margin: 64px;
     }
 
     #bio-header h1, #experience-header h1, #portfolio-header h1 {

@@ -6,7 +6,7 @@ body {
     color: #DD4A48;
     font-size: 24px;
     letter-spacing: 0.095em;
-    margin: 44px auto;
+    margin: 14px auto;
 }
 
 nav {
@@ -49,32 +49,43 @@ h3 {
     color: #8D3333
 }
 
-#bio-header, #experience-header, #portfolio-header {
+#bio-header,
+#experience-header,
+#portfolio-header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-#bio-header h1, #experience-header h1, #portfolio-header h1 {
+#bio-header h1,
+#experience-header h1,
+#portfolio-header h1 {
     display: flex;
     flex-direction: row;
     justify-content: left;
     font-size: 64px;
     margin: 0 0 0 77px;
 }
-#bio-header h1 a, #experience-header h1 a, #portfolio-header h1 a {
-    color:#DD4A48;
+
+#bio-header h1 a,
+#experience-header h1 a,
+#portfolio-header h1 a {
+    color: #DD4A48;
     text-decoration: none;
 }
 
-#bio-header h1 a:hover, #experience-header h1 a:hover, #portfolio-header h1 a:hover {
+#bio-header h1 a:hover,
+#experience-header h1 a:hover,
+#portfolio-header h1 a:hover {
     letter-spacing: 0.1em;
     transition-timing-function: ease-in-out;
     color: #8D3333;
     transition: 1s;
 }
 
-#bio-nav, #experience-nav, #portfolio-nav {
+#bio-nav,
+#experience-nav,
+#portfolio-nav {
     font-size: 28px;
     display: flex;
     flex-direction: row;
@@ -82,7 +93,9 @@ h3 {
     margin: 0 0 0 0;
 }
 
-#bio-nav a, #experience-nav a, #portfolio-nav a {
+#bio-nav a,
+#experience-nav a,
+#portfolio-nav a {
     padding: 0 42px;
 }
 
@@ -96,21 +109,21 @@ h3 {
 #portrait {
     display: flex;
     flex-direction: row;
-    width: 30%;
+    width: 384px;
     height: 30%;
     border-radius: 15px;
     margin-left: 180px;
 }
 
 p {
-    color:#8D3333;
+    color: #8D3333;
     letter-spacing: 0.005em;
     line-height: 1.55em;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 150px;
+    margin: 0 180px;
 }
 
 h2 {
@@ -118,8 +131,9 @@ h2 {
     flex-direction: row;
     justify-content: center;
 }
+
 #featured-head {
-    margin-bottom: 64px;
+    margin-bottom: 44px;
 }
 
 #featured {
@@ -130,7 +144,9 @@ h2 {
     margin: 28px auto;
 }
 
-#example-1, #example-2, #example-3 {
+#example-1,
+#example-2,
+#example-3 {
     display: flex;
     border-radius: 15px;
     flex-direction: row;
@@ -144,7 +160,10 @@ h2 {
     flex-direction: column;
     align-items: flex-start;
 }
-#text-1, #text-2, #text-3 {
+
+#text-1,
+#text-2,
+#text-3 {
     font-size: 24px;
     text-align: center;
     justify-content: center;
@@ -214,8 +233,13 @@ h2 {
     border-radius: 15px;
     margin: 84px 0;
 }
-#project-text-1, #project-text-2, #project-text-3,
-#project-text-4, #project-text-5, #project-text-6 {
+
+#project-text-1,
+#project-text-2,
+#project-text-3,
+#project-text-4,
+#project-text-5,
+#project-text-6 {
     font-size: 16px;
     text-align: center;
     justify-content: center;
@@ -289,7 +313,7 @@ h2 {
     flex-direction: row;
     justify-content: center;
     font-size: 14px;
-    margin-top: 16px;
+    margin-top: 56px;
 }
 
 footer {
@@ -307,7 +331,7 @@ footer a {
 }
 
 footer a:hover {
-    color:#DD4A48;
+    color: #DD4A48;
 }
 
 @media screen and (max-width: 1290px) {
@@ -357,7 +381,9 @@ footer a:hover {
         margin-bottom: 0;
     }
 
-    .container-1, .container-2, .container-3 {
+    .container-1,
+    .container-2,
+    .container-3 {
         margin: 0 0 128px 0;
     }
 }
@@ -385,24 +411,32 @@ footer a:hover {
         margin: 64px;
     }
 
-    #bio-header h1, #experience-header h1, #portfolio-header h1 {
+    #bio-header h1,
+    #experience-header h1,
+    #portfolio-header h1 {
         flex-direction: column;
         align-items: center;
         margin: 0 0 16px 0;
     }
 
-    #bio-header, #experience-header, #portfolio-header {
+    #bio-header,
+    #experience-header,
+    #portfolio-header {
         flex-direction: column;
         align-items: center;
         margin: 16px;
     }
 
-    #bio-header nav, #experience-header nav, #portfolio-header nav {
+    #bio-header nav,
+    #experience-header nav,
+    #portfolio-header nav {
         flex-direction: column;
         align-items: center;
     }
 
-    #bio-header nav a, #experience-header nav a, #portfolio-header nav a {
+    #bio-header nav a,
+    #experience-header nav a,
+    #portfolio-header nav a {
         padding-bottom: 16px;
     }
 
@@ -434,26 +468,27 @@ footer a:hover {
     .education h2 {
         margin: 16px;
     }
+
     .education ul {
-       padding: 0;
-       margin: auto;
+        padding: 0;
+        margin: auto;
     }
 
     .education ul li {
         padding: 16px;
-     }
+    }
 
-     #project-head {
+    #project-head {
         margin: 0 auto;
-     }
+    }
 
-     #project-images {
+    #project-images {
         margin: 0 auto 94px auto;
-     }
+    }
 
-     #project-1 {
+    #project-1 {
         margin: 0 0 0 0;
-     }
+    }
 
     footer {
         margin-top: 0px;

@@ -19,13 +19,13 @@ nav {
 nav a {
     text-decoration: none;
     color: #DD4A48;
+    transition: all 1s;
 }
 
 nav a:hover {
     letter-spacing: 0.1em;
     transition-timing-function: ease-in-out;
     color: #8D3333;
-    transition: all 1s;
 }
 
 h1 {
@@ -72,6 +72,7 @@ h3 {
 #portfolio-header h1 a {
     color: #DD4A48;
     text-decoration: none;
+    transition: 1s;
 }
 
 #bio-header h1 a:hover,
@@ -80,7 +81,6 @@ h3 {
     letter-spacing: 0.1em;
     transition-timing-function: ease-in-out;
     color: #8D3333;
-    transition: 1s;
 }
 
 #bio-nav,
@@ -153,6 +153,7 @@ h2 {
     justify-content: center;
     width: 360px;
     height: 500px;
+    transition: all 1s ease-in-out;
 }
 
 .container-1 {
@@ -170,36 +171,19 @@ h2 {
     margin: -419px 0 0 54px;
     width: 260px;
     opacity: 0;
-}
-
-#featured .container-1:hover #example-1 {
-    opacity: 0.15;
     transition: all 1s ease-in-out;
 }
 
-#featured .container-1:hover #text-1 {
-    opacity: 1;
-    transition: all 1s ease-in-out;
-}
-
-#featured .container-2:hover #example-2 {
-    opacity: 0.25;
-    transition: all 1s ease-in-out;
-}
-
-#featured .container-2:hover #text-2 {
-    opacity: 1;
-    transition: all s ease-in-out;
-}
-
+#featured .container-1:hover #example-1, 
+#featured .container-2:hover #example-2,
 #featured .container-3:hover #example-3 {
-    opacity: 0.25;
-    transition: all 1s ease-in-out;
+    opacity: 0.15;
 }
 
+#featured .container-1:hover #text-1,
+#featured .container-2:hover #text-2, 
 #featured .container-3:hover #text-3 {
     opacity: 1;
-    transition: all 1s ease-in-out;
 }
 
 .education {
@@ -232,6 +216,7 @@ h2 {
     height: 280px;
     border-radius: 15px;
     margin: 84px 0;
+    transition: all 1s ease-in-out;
 }
 
 #project-text-1,
@@ -246,66 +231,25 @@ h2 {
     margin: -296px 0 0 72px;
     width: 260px;
     opacity: 0;
-}
-
-#project-images .project-container-1:hover #project-1 {
-    opacity: 0.25;
     transition: all 1s ease-in-out;
 }
 
-#project-images .project-container-1:hover #project-text-1 {
-    opacity: 1;
-    transition: all 1s ease-in-out;
-}
-
-#project-images .project-container-2:hover #project-2 {
-    opacity: 0.25;
-    transition: all 1s ease-in-out;
-}
-
-#project-images .project-container-2:hover #project-text-2 {
-    opacity: 1;
-    transition: all 1s ease-in-out;
-}
-
-#project-images .project-container-3:hover #project-3 {
-    opacity: 0.25;
-    transition: all 1s ease-in-out;
-}
-
-#project-images .project-container-3:hover #project-text-3 {
-    opacity: 1;
-    transition: all 1s ease-in-out;
-}
-
-#project-images .project-container-4:hover #project-4 {
-    opacity: 0.25;
-    transition: all 1s ease-in-out;
-}
-
-#project-images .project-container-4:hover #project-text-4 {
-    opacity: 1;
-    transition: all 1s ease-in-out;
-}
-
-#project-images .project-container-5:hover #project-5 {
-    opacity: 0.25;
-    transition: all 1s ease-in-out;
-}
-
-#project-images .project-container-5:hover #project-text-5 {
-    opacity: 1;
-    transition: all 1s ease-in-out;
-}
-
+#project-images .project-container-1:hover #project-1,  
+#project-images .project-container-2:hover #project-2, 
+#project-images .project-container-3:hover #project-3,
+#project-images .project-container-4:hover #project-4,
+#project-images .project-container-5:hover #project-5,
 #project-images .project-container-6:hover #project-6 {
     opacity: 0.25;
-    transition: all 1s ease-in-out;
 }
 
+#project-images .project-container-1:hover #project-text-1,
+#project-images .project-container-2:hover #project-text-2,
+#project-images .project-container-3:hover #project-text-3, 
+#project-images .project-container-4:hover #project-text-4,
+#project-images .project-container-5:hover #project-text-5, 
 #project-images .project-container-6:hover #project-text-6 {
     opacity: 1;
-    transition: all 1s ease-in-out;
 }
 
 #bio-footer {
